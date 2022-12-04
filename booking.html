@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Страница бронирования</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <img src="img/logo.png">
+        <div class="container">
+            <h1>Страница бронирования</h1>
+
+            <div class="form-find">
+                <ul class="list-find">
+                    <li class="list-find-item">
+                        <span>Регион:</span>
+                        <select class="find select">
+                            <option value="1">ХМАО</option>
+                            <option value="2">ЯНАО</option>
+                            <option value="3">Тюменская область</option>
+                            <option value="4">Свердловская область</option>
+                            <option value="5">Челябинская область</option>
+                            <option value="6">Курганская область</option>
+                        </select>
+                    </li>
+                    <li class="list-find-item">
+                        <span>Название маршрута:</span>
+                        <select class="find select">
+                            <option value="1">Югорский отдых</option>
+                            <option value="2">Северная ледышка</option>
+                            <option value="3">Тюменская туса</option>
+                            <option value="4">Свердловская прогулка</option>
+                            <option value="5">Челябинский метеорит</option>
+                            <option value="6">Курганские запасы</option>
+                        </select>
+
+                    </li>
+                    <li class="list-find-item">
+                        <label>Введите дату: <input type="date" class="find
+                                data"></label>
+                    </li>
+                    <li class="list-find-item">
+                        <label>Введите количество: <input type="text" value="0"
+                                class="find value"></label>
+                    </li>
+
+                    <li class="list-find-item">
+                        <span>Оплата:</span>
+                        <select class="find select">
+                            <option value="1">Югорский отдых - 10000 руб.</option>
+                            <option value="2">Северная ледышка - 7000 руб.</option>
+                            <option value="3">Тюменская туса - 12000 руб.</option>
+                            <option value="4">Свердловская прогулка - 15000 руб.</option>
+                            <option value="5">Челябинский метеорит - 11000 руб.</option>
+                            <option value="6">Курганские запасы - 9000 руб.</option>
+                        </select>
+                    </li>
+
+                </div>
+            </div>
+            <div class="container"> 
+                <h1>Выбор дополнительных услуг:</h1>
+                <br><input type="radio" id="css" name="fav_language" value="CSS">Услуги проводника (3000 руб.)</br>
+                <br><input type="radio" id="css" name="fav_language" value="CSS">Услуги оренды туристического оборудования (1500 руб.)</br>
+                <br><input type="radio" id="css" name="fav_language" value="CSS">Услуги фотографа/видеооператора (500 руб.)</br>
+                <br><input type="radio" id="css" name="fav_language" value="CSS">Страхование от несчастных случаев (1000 руб.)</br>
+            </div>
+
+            <div class="container">
+                <p>Комментарий к заказу<Br>
+                    <textarea name="comment" cols="40" rows="3"></textarea></p>
+                   <p><input type="submit" value="Отправить">
+                    <input type="reset" value="Очистить"></p>
+
+                    <div class="subscribe container">
+                        <label for="email">Введите почту:</label>
+                        <input type="email" id="email" pattern=".+@globex\.com" size="30" required>
+                        <button class="button subscribe-btn"><a href="">Отправить</a></button>
+                    </div>
+                    <h1>Итоговая стоимость:</h1>
+                    <input>
+                    <div>
+                        <button class="button button-find"><a href="index.html">Забронировать</a></button>
+                    </div>
+            
+        </div>
+    </body>
+</html>
